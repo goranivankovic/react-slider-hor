@@ -1,23 +1,41 @@
 import logo from './logo.svg';
 import './App.css';
+import SliderBar from './components/SliderBar';
+
+
+import man1 from './image/man-1.jpg'
+import man2 from './image/man-2.jpg'
+import man3 from './image/man-3.jpg'
+import man4 from './image/man-4.jpg'
+import man5 from './image/man-5.jpg'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <SliderBar
+
+      img={[man1,man2,man3,man4,man5]}
+
+      imgText={["First text image slider","Second text image slider","Threed text image slider","Four text image slider","Five text image slider"]}
+
+      arrow_color="red"
+
+      text_color=""
+
+      textColorHover='red'
+
+    
+   
+  
+
+
+ />
+   
+ 
+
+     
     </div>
   );
 }
