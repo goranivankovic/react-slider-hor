@@ -2,6 +2,7 @@
   "name": "image-slider-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://goranivankovic.gitub.io/react-slider-hor/",
   "dependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.5",
