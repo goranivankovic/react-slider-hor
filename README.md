@@ -1,4 +1,4 @@
-<h1>React responsiv Full Screen Slider with props</h1>
+<h1>Responsiv Full Screen Slider with props</h1>
 
 
 
