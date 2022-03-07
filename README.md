@@ -59,8 +59,6 @@ npm install react-icons --save
 
 ```javascript
 
-import logo from './logo.svg';
-import './App.css';
 import SliderBar from 'react-slider-hor';
 
 
