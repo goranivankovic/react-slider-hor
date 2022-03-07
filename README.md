@@ -1,8 +1,8 @@
-<h1>React responsiv Footer with props</h1>
+<h1>React responsiv Full Screen Slider with props</h1>
 
 
 
-<h4>react-footer-hor is a React component to build  simple and responsive footer component</h4>
+<h4>react-slider-hor is a React component to build  simple and responsive Slider .</h4>
 
 
 
@@ -19,7 +19,7 @@
 ```bash
 npm i react-slider-hor
 ```
-<h4>styled components must be installed</h4>
+<h4>React-icons must be installed</h4>
 
 ```bash
 npm install react-icons --save
