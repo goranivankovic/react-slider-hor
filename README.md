@@ -37,7 +37,7 @@ npm install react-icons --save
 
 
 
-  <img src="https://media.giphy.com/media/VYDcGcFl0UvgtAfcsq/giphy.gif" heigt="500" width="50%" />
+  <img src="https://media.giphy.com/media/khgnBDJEMU8RKet3o3/giphy.gif" heigt="500" width="50%" />
   
   
   <h4>
