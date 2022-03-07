@@ -45,9 +45,11 @@ npm install react-icons --save
   Technologies use: react, react-hooks, react-icons, css.</br>
   Don't waste your time building your own Slider, just simple downloaded with npm.</br>
   Required: Node.js, NPM, React.</br>
-  Simple to use send props in your main components. </br>
-  Add colors of: text-headline, border-headline, background, text-rows.<br/>
-  Add row headline-names , row-items, footer-items. </br> 
+  Simple to use send props in your main component. </br>
+  Add colors of: arrow_color, text_color, textColorHover.<br/>
+  Add img src with props minimum 3 elements </br> 
+  Add imgText with props.</br>
+  
   I hope you liked and feel happy to enjoy and download.
   
 
