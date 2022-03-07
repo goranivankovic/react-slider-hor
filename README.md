@@ -17,12 +17,12 @@
 
 
 ```bash
-npm install react-footer-hor
+npm i react-slider-hor
 ```
 <h4>styled components must be installed</h4>
 
 ```bash
-npm install styled-components --save
+npm install react-icons --save
 ```
 
 </br>
@@ -41,9 +41,9 @@ npm install styled-components --save
   
   
   <h4>
-  Responsive footer with props.</br>
-  Technologies use: react, styled-components, react-hooks, react-icons, css.</br>
-  Don't waste your time building your own footer, just simple downloaded with npm.</br>
+  Responsive Slider with props.</br>
+  Technologies use: react, react-hooks, react-icons, css.</br>
+  Don't waste your time building your own Slider, just simple downloaded with npm.</br>
   Required: Node.js, NPM, React.</br>
   Simple to use send props in your main components. </br>
   Add colors of: text-headline, border-headline, background, text-rows.<br/>
@@ -59,70 +59,51 @@ npm install styled-components --save
 
 ```javascript
 
-import react from 'react';
-import FooterBar from 'react-footer-hor';
+import logo from './logo.svg';
+import './App.css';
+import SliderBar from 'react-slider-hor';
+
+
+import man1 from './image/man-1.jpg'
+import man2 from './image/man-2.jpg'
+import man3 from './image/man-3.jpg'
+import man4 from './image/man-4.jpg'
+import man5 from './image/man-5.jpg'
+
 
 function App() {
   return (
     <div>
-    
-    
-      <FooterBar 
-   
-    //Chnage background color not requried default grey.
-      bgColor=""
 
-      //Change text color not requried default white.
+      <SliderBar
+
+      img={[man1,man2,man3,man4,man5]}
+
+      imgText={["First text image slider","Second text image slider","Threed text image slider","Four text image slider","Five text image slider"]}
+
+      arrow_color="red"
+
       text_color=""
- 
-     //Change headline color of 4 rows not requried default red.
-      headline_color=""
 
-    //Chenge border color of 4 headline itmes not requried default white.
-      border_color=""
+      textColorHover='red'
 
-     //Change first row headline required.
-      first_headline_name="NEWS"
     
-      //Change first row items minimum 3 items. Maximum 5 items for responsiveness items,  it must have unique names required.
-      first_row_items={["Blog","Newsletter","my Book","ABOUT US","Lean in 15 Meals on Gousto"]}
+   
+  
 
 
-     //Change second row headline required.
-      second_headline_name="COMMUNITY"
+ />
+   
  
-      //Change second row items minimum 3 items. Maximum  5 items for responsiveness items, it must have unique names required.
-      second_row_items={["YouTube Channel","Instagram","Twitter","Facebook","Google"]}
 
-
-     //Change thred row headline required.
-      three_headline_name="CONTACT US"
-
-     //Change thred row items minimum 3 items. Maximum  5 items for responsiveness items, it must have unique required.
-      three_row_items={["Support Centre","Newsletter","Fax & Email","Careers","Join Us"]}
-
-
-     //Change four row headline required.
-      four_headline_name="COMMUNITY"
-
-     //Change fur row items minimum 3 items. Maximum  5 items for responsiveness items, it must have unique name required.
-      four_row_items={["YouTube Channel","Instagram","Twitter","Facebook","Google"]}
-
-
-       
-     //Change footer items minimum 1 items. Maximum 3 items for responsiveness items , it must have unique names required.
-     footer_items={["2022TERMS & CONDITION","@ THE FOOTER APP","SPRIVACY POLICYCOOKIE POLICY"]}
-
-      
-      
-      />
-    
-
+     
     </div>
   );
 }
 
 export default App;
+
+
 
 ```
 
