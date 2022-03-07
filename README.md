@@ -8,7 +8,7 @@
 
 ## Installation
 
-<h5>Use the npm package manager to install react-footer-hor</h5>
+<h5>Use the npm package manager to install react-slider-hor</h5>
 
 </br>
 
