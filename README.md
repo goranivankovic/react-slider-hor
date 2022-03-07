@@ -28,7 +28,7 @@ npm install react-icons --save
 </br>
 
 
-[Link with Example](https://goranivankovic.github.io/react-slide-hor/)
+[Link with Example]https://goranivankovic.github.io/react-slider-hor/
 
 
 
