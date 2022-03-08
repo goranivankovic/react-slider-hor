@@ -85,11 +85,13 @@ function App() {
       imgText={["First text image slider","Second text image slider","Threed text image slider","Four text image slider","Five text image slider"]}
 
      //Change arrow colors not required default white.
-      arrow_color="red"
+      arrow_color=""
+      
      //Change text color not required default white.
       text_color=""
+      
      //Change hover text color not required default red.
-      textColorHover='red'
+      textColorHover=''
 
     
   
