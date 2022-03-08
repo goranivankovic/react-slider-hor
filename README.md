@@ -17,7 +17,7 @@
 
 
 ```bash
-npm i react-slider-hor
+npm i react-slider-hor 
 ```
 <h4>React-icons must be installed</h4>
 
