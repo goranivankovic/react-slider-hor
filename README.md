@@ -63,6 +63,7 @@ npm install react-icons --save
 
 import SliderBar from 'react-slider-hor';
 
+//Import images from folders or links
 
 import man1 from './image/man-1.jpg'
 import man2 from './image/man-2.jpg'
@@ -77,16 +78,21 @@ function App() {
 
       <SliderBar
 
+      //Set images items to img prop .Minimum 3 items .
       img={[man1,man2,man3,man4,man5]}
 
+     //Set image text to img item .
       imgText={["First text image slider","Second text image slider","Threed text image slider","Four text image slider","Five text image slider"]}
 
+     //Change arrow colors not required default white.
       arrow_color="red"
-
+     //Change text color not required default white.
       text_color=""
-
+     //Change hover text color not required default red.
       textColorHover='red'
 
+    
+  
 
  />
    
@@ -98,6 +104,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
